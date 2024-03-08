@@ -11,6 +11,8 @@
 
 # print(positive_count)
 
+###################################################################
+
 
 # Question 2 : Sum of Even Numbers
 # Summary : Calculate the sum of even numbers up to a given number n.
@@ -24,6 +26,8 @@
 
 # print("even_sum", even_sum)
 
+#######################################################################
+
 
 # Question 3 : Multiplication Table Printer
 # Summary : Print the multiplication table for a given number up to 10, but skip the fifth iteration.
@@ -34,6 +38,8 @@
 #     if i == 5:
 #         continue
 #     print(given_number, " * ", i, " = ", given_number * i)
+
+#############################################################################
 
 
 # Question 4 : Reverse a String
@@ -47,6 +53,8 @@
 
 # print(rev_str)
 
+##################################################################
+
 
 # Question 5 :  Find the First Non-Repeated Character
 # Summary :  Given a string, find the first non-repeated character.
@@ -57,6 +65,8 @@
 #     if str.count(char) == 1:
 #         print("first non-repeated character is: ", char)
 #         break
+
+##########################################################################
 
 
 # Question 6 : Factorial Calculator
@@ -71,6 +81,8 @@
 
 # print({factorial})
 
+############################################################################
+
 
 # Question 7 : Validate Input
 # Summary : Keep asking the user for input until they enter a number between 1 and 10.
@@ -82,6 +94,8 @@
 #         break
 #     else:
 #         print("Invalid number")
+
+#########################################################################
 
 
 # Question 8 : Prime Number Checker
@@ -98,6 +112,8 @@
 
 # print("IsPrime: ", is_Prime)
 
+####################################################################
+
 
 # Question 9 : List Uniqueness Checker
 # Summary : Check if all elements in a list are unique. If a duplicate is found, exit the loop and print the duplicate.
@@ -111,19 +127,21 @@
 #         break
 #     unique_item.add(item)
 
+##################################################################
+
 
 # Question 10 : Exponential Backoff
 # Summary : Implement an exponential backoff strategy that doubles the wait time between retries, starting from 1 second, but stops after 5 retries.
 
-import time
+# import time
 
-wait_time = 1
-max_retries = 5
-attempts = 0
+# wait_time = 1
+# max_retries = 5
+# attempts = 0
 
-while attempts < max_retries:
-    print("wait_time", wait_time)
-    print("attempts", attempts)
-    time.sleep(wait_time)
-    wait_time *= 2
-    attempts += 1
+# while attempts < max_retries:
+#     time.sleep(wait_time)
+#     print("wait_time", wait_time)
+#     print("attempts", attempts)
+#     wait_time *= 2
+#     attempts += 1

@@ -11,6 +11,8 @@
 # else:
 #     print("Senior")
 
+###############################################################
+
 
 # Question 2 : Movie Ticket Pricing
 # Summary : Movie tickets are priced based on age: $12 for adults (18 and over), $8 for children. Everyone gets a $2 discount on Wednesday.
@@ -23,6 +25,8 @@
 #     price = price - 2
 
 # print("Ticket cost:", price)
+
+#####################################################################
 
 
 # Question 3 : Grade Calculator
@@ -46,6 +50,8 @@
 #     grade = "F"
 # print("Grade: ", grade)
 
+###########################################################
+
 
 # Question 4 : Fruit Ripeness Checker
 # Summary : Determine if a fruit is ripe, overripe, or unripe based on its color. (e.g., Banana: Green - Unripe, Yellow - Ripe, Brown - Overripe)
@@ -65,6 +71,8 @@
 # else:
 #     print("unknown fruit")
 
+##############################################################
+
 
 # Question 5 : Weather Activity Suggestion
 # Summary : Suggest an activity based on the weather (e.g., Sunny - Go for a walk, Rainy - Read a book, Snowy - Build a snowman).
@@ -82,6 +90,8 @@
 
 # print(activity)
 
+#################################################################
+
 
 # Question 6 : Transportation Mode Selection
 # Summary : Choose a mode of transportation based on the distance (e.g., <3 km: Walk, 3-15 km: Bike, >15 km: Car).
@@ -97,6 +107,8 @@
 
 # print(transport)
 
+##########################################################
+
 
 # Question 7 : Coffee Customization
 # Summary : Customize a coffee order: "Small", "Medium", or "Large" with an option for "Extra shot" of espresso.
@@ -110,6 +122,8 @@
 #     coffee = order_size + " coffee"
 
 # print(coffee)
+
+##############################################################
 
 
 # Question 8 : Password Strength Checker
@@ -127,6 +141,8 @@
 
 # print(status)
 
+##########################################################
+
 
 # Question 9 : Leap Year Checker
 # Summary : Determine if a year is a leap year. (Leap years are divisible by 4, but not by 100 unless also divisible by 400).
@@ -138,6 +154,8 @@
 #     print("Year is a Leap Year")
 # else:
 #     print("Year is not a Leap Year")
+
+##############################################################
 
 
 # Question 10 : Pet Food Recommendation
