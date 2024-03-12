@@ -26,7 +26,7 @@ def update_video(video_id, name, time):
 
 
 def delete_video(video_id):
-    video_collection.find_one_and_delete(video_id)
+    video_collection.find_one_and_delete(ObjectId(video_id))
 
 
 def main():
