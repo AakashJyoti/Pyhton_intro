@@ -3,7 +3,7 @@ from bson import ObjectId
 
 
 client = MongoClient(
-    "mongodb+srv://Aakash_mongo:GdsGoPluG4Yd4CzL@cluster0.1zyyhly.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    "mongodb+srv://Aakash_mongo:<password>@cluster0.1zyyhly.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 )
 
 DB = client["vidmanager"]
